@@ -20,6 +20,7 @@ steps:
 - checkout: self
 
 - script: |
+    cd src
     npm install
     npm run build
   displayName: 'npm install and build'
